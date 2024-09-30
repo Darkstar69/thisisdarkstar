@@ -1,12 +1,16 @@
 import './App.css';
+import Console from './Components/Console';
 import Navbar from './Components/Navbar';
+import Sidebar from './Components/Sidebar';
 
 
 function App() {
+  
   return (
     <>
       <Navbar />
-      <h1 className='text-red-500'>Hello React</h1>
+      <Console/>
+      <Sidebar/>
     </>
   );
 }
